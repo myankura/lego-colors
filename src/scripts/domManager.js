@@ -38,7 +38,7 @@ legoSaveFragment.appendChild(creatorEl);
 //save color feature
 let colorEl = document.createElement("fieldset");
 colorEl.appendChild(buildElement("label", undefined, "Color: "));
-let selectEl = colorEl.appendChild(buildElement("select", "color-select"));
+let selectEl = colorEl.appendChild(buildElement("select", "save-color-select"));
 // colorEl.appendChild(buildElement("input", "save-lego-color", undefined));
 selectEl.appendChild(buildOption("blue", "Blue"));
 selectEl.appendChild(buildOption("red", "Red"));

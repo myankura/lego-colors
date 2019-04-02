@@ -21,6 +21,6 @@ document.querySelector("#btn_lego_save").addEventListener("click", event => {
         headers: {
             "Content-Type": "application/json"
         },
-        body: JSON.stringify(legoToSave);
+        body: JSON.stringify(legoToSave)
     })
 });
